@@ -1,0 +1,230 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: dodgerblue;
+}
+
+h1 {
+	margin: 0px;
+	padding: 0px;
+	font-size:60px;
+	text-align: center;
+	color: white;
+	font-family: 'Tangerine', cursive;
+}
+
+ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+header {
+	padding-top: 10px;
+	background-color: dodgerblue;
+	min-width: 320px;
+}
+
+header ul {
+	background-color: dodgerblue;
+	padding: 5px 20px 0px 5px;
+}
+
+main {
+	background-color: white;
+	min-height: calc(100vh - 135px);
+	width: 100%;
+	padding: 15px;
+	display: block;
+	font-size: 24px;
+	font-family: 'Flamenco', cursive;
+}
+
+.dodgerblue {
+	color: dodgerblue;
+}
+
+.springgreen {
+	color: springgreen;
+}
+
+.tomato {
+	color: tomato;
+}
+
+.fadeIn {
+	animation-duration: 0.5s;
+	-webkit-animation-duration: 0.5s;
+	animation-name: fadeIn;
+	-webkit-animation-name: fadeIn;
+}
+
+.selected-page {
+	background-color: white;
+	color: black;
+}
+
+#page-items {
+	font-size: 25px;
+	color: white;
+}
+
+#page-items li {
+	position: relative;
+	padding: 10px;
+	border-radius: 20px;
+	display: inline-block;
+	border-radius: 10px 10px 0px 0px;
+	cursor: pointer;
+}
+
+#page-items li:hover {
+	background-color: lightsteelblue;
+	transition: 0.6s;
+	-webkit-transition: 0.6s;
+}
+
+#page-items .selected-page:hover {
+	cursor: default;
+	background-color: white;
+}
+
+.project-image {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 400px;
+	max-height: 300px;
+	width: 100%;
+	border-radius: 20px 0px 20px 0px;
+	border: 5px solid lightsteelblue;
+}
+
+.project-wrapper {
+	max-width: 800px;
+}
+
+.project-wrapper h2 {
+	
+}
+
+.project-wrapper p {
+	
+}
+
+.partition {
+	max-width: 700px;
+	width: 90%;
+	height: 3px;
+	background-color: springgreen;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+.project-image-wrapper {
+	position: relative;
+}
+
+.about-image {
+	max-width: 200px;
+	min-width: 100px;
+	width: 50%;
+	border-radius: 100%;
+	float: left;
+	shape-outside: circle(50%);
+	-webkit-shape-outside: circle(50%);
+	margin-right: 20px;
+	position: relative;
+}
+
+@media only screen and (min-width: 620px){
+	body {
+		text-align: center;
+	}
+
+	h1 {
+		font-size: 70px;
+	}
+
+	header {
+		min-width: 220px;
+		width: 200px;
+		background-color: dodgerblue;
+		display: inline-block;
+		float: left;
+		position: relative;
+	}
+
+	header ul {
+		background-color: dodgerblue;
+		padding-left: 20px;
+		padding-top: 20px;
+		width: 100%;
+	}
+
+	#portfolio-wrapper {
+		display: inline-block;
+		float: left;
+	}
+
+	#page-items {
+		font-size: 30px;
+		display: inline-block;
+		color: white;
+		font-family: 'Fira Sans Condensed', sans-serif;
+		padding: 20px 0px 20px 20px;
+	}
+
+	#page-items li {
+		display: block;
+		position: relative;
+		padding: 15px;
+		border-radius: 20px 0px 0px 20px;
+	}
+
+	#page-items li:hover {
+		padding-left: 30px;
+		transition: 0.3s;
+		-webkit-transition: 0.3s;
+	}
+
+	#page-items .selected-page:hover {
+		padding-left: 15px;
+	}
+
+	.selected-page {
+		background-color: white;
+		color: black;
+	}
+
+	main{
+		display: inline-block;
+		max-width: 1000px;
+		width: calc(100vw - 246px);
+		min-height: 100vh;
+		padding: 5vw;
+		text-align: left;
+		font-size: 26px;
+	}
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}

@@ -1,0 +1,132 @@
+header {
+	text-align: center;
+	background-color: darkslategray;
+	position: fixed;
+	width: 100%;
+	font-family: 'Merriweather', serif;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	transition: 0.4s;
+	-webkit-transition: 0.4s;
+	z-index: 1;
+}
+
+.opaque {
+	opacity: 0.5;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.opaque:hover {
+	opacity: 1;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+body {
+	padding: 0px;
+	margin: 0px;
+
+	/*for the background image*/
+	background-image: url('./background.png');
+	background-repeat: no-repeat;
+	background-size: cover; 
+	background-position: center;
+	background-attachment: fixed;
+	height: 100vh;
+}
+
+main {
+	padding-top: 110px;
+}
+
+h1 {
+	font-size: 30px;
+	margin: 0px;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	display: inline-block;
+	color: lightyellow;
+	cursor: default;
+	padding-right: 10px;
+}
+
+ul {
+	font-size: 40px;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	display: inline-block;
+}
+
+li {
+	margin: 0px;
+	padding: 0px;
+}
+
+#links li {
+	font-size: 23px;
+	display: inline-block;
+	color: lightyellow;
+	padding: 5px 0px;
+}
+
+#links li:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.text-block {
+	margin: 0px 5vw 20px 5vw;
+	background-color: white;
+	font-family: 'Lato', sans-serif;
+	padding: 10px;
+	border-radius: 5px;
+	max-width: 800px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	transition: 4s;
+	-webkit-transition: 4s;
+}
+
+.text-block p {
+	font-size: 20px;
+}
+
+.text-block h2 {
+	font-size: 30px;
+}
+
+#myself {
+	opacity: 1.5;
+	max-width: 400px;
+	width: 100%;
+	border-radius: 30px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+}
+
+.invisible{
+	opacity: 0;
+}
+
+@media only screen and (min-width: 545px){
+	main {
+		padding-top: 70px;
+	}
+}
+
+@media only screen and (min-width: 620px){
+	.text-block {
+		padding: 20px;
+	}
+}

@@ -56,21 +56,28 @@ function projectsPage(){
 	const page = `
 		<div class="partition fadeIn"></div>
 		<div class="project-wrapper fadeIn">
-			<img src="./project-images/home.png" class="project-image">
+			<img src="./project-images/poem-display.png" class="project-image">
 			<h2><a href="${cloudPoetryLink}">Cloud Poetry</a></h2>
-			<p>Cloud Poetry is a </p>
+			<p>Cloud Poetry is an app designed for people who are interested in creating and sharing poetry.</p>
+			<p>Uses JavaScript, React, node.js, Express, and MongoDB</p>
+			<p><a href="${cloudPoetryGithub}">App Github</a></p>
+			<p><a href="${cloudPoetryApiGithub}">API Github</a></p>
 		</div>
 		<div class="partition fadeIn"></div>
 		<div class="project-wrapper fadeIn">
 			<img src="./project-images/calendar.png" class="project-image">
 			<h2><a href="${reflectAppLink}">Reflect</a></h2>
-			<p>This is a description, and I think this is great... yes I really do and you should too! please don't bother the lamp people, they only want to give you world light.</p>
+			<p>The 'Reflect' web app is a journal-like app that provides the user with a personal journal they can use to reflect upon their day.</p>
+			<p>Uses html, css, JavaScript, JQuery, Node.js, Express, and MongoDB</p>
+			<p><a href="${reflectAppGithub}">App Github</a></p>
 		</div>
 		<div class="partition fadeIn"></div>
 		<div id="" class="project-wrapper fadeIn">
 			<img src="./project-images/trivia.png" class="project-image">
 			<h2><a href="${groupTriviaLink}">Group Trivia</a></h2>
-			<p>This is a description, and I think this is great... yes I really do and you should too! please don't bother the lamp people, they only want to give you world light.</p>
+			<p>Group Trivia is an app for playing trivia with friends and family.</p>
+			<p>Uses html, css, JQuery, JavaScript and the APIs from OpenTDB and Wikipedia</p>
+			<p><a href="${groupTriviaGithub}">App Github</a></p>
 		</div>
 	`;
 

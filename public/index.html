@@ -13,16 +13,58 @@
 		<header>
 			<h1>Jonathan Walker</h1>
 			<ul id="page-items">
-				<li id="about-page" class="selected-page">About</li>
-				<li id="projects-page">Projects</li>
-				<li id="contact-page">Contact</li>
+				<li id="about-page-tab">About</li>
+				<li id="projects-page-tab">Projects</li>
+				<li id="contact-page-tab">Contact</li>
 			</ul>
 		</header>
 		<main aria-live="polite">
-			<img class="about-image fadeIn" src="./project-images/myself.jpg">
-			<h2 class="fadeIn">Hello!</h2>
-			<p class="fadeIn">Originally from the great and beautiful state of Minnesota, I gathered my belongings in the summer of 2017 and migrated to my current city of Phoenix, AZ. While transitioning to my new life in the desert, I discovered a newfound love of web development and computer programming, which quickly led me to enroll in a web development bootcamp. I have since developed a deep admiration for <b class="tomato">air conditioning</b>, cactuses (<b class="springgreen">cacti?</b>), and <b class="dodgerblue">dodgerblue</b>.</p>
-			<p class="fadeIn">I know JavaScript, HTML, CSS, React, JQuery, MongoDB... and I know some Java too!</p>
+			<section id="about-page">
+				<img class="about-image fadeIn" src="./project-images/myself.jpg">
+				<h2 class="fadeIn">About</h2>
+				<p class="fadeIn">Originally from the great and beautiful state of Minnesota, I gathered my belongings in the summer of 2017 and migrated to my current city of Phoenix, AZ. While transitioning to my new life in the desert, I discovered a newfound love of web development and computer programming, which quickly led me to enroll in a web development bootcamp. I have since developed a deep admiration for <b class="tomato">air conditioning</b>, cactuses (<b class="springgreen">cacti?</b>), and <b class="dodgerblue">dodgerblue</b>.</p>
+				<p>When I'm not building web apps, I spend my time hanging with friends, attempting to cook, and making music.</p>
+				<p class="fadeIn">I am familiar with JavaScript, HTML, CSS, React, JQuery, MongoDB... and some Java too!</p>
+			</section>
+			<section id="projects-page">
+				<h2 class="fadeIn">Projects</h2>
+				<div class="project-wrapper fadeIn">
+					<h3><a href="https://poem-app-2322.herokuapp.com/">Cloud Poetry</a></h3>
+					<img src="./project-images/poem-display.png" class="project-image" alt="snapshot of Cloud Poetry app">
+					<p>Cloud Poetry is an app designed for people who are interested in creating and sharing poetry. I was inspired to create this app because I love the way poetry allows one to express themself, and I think facilitating such expression is cool.</p>
+					<p>Uses JavaScript, React, node.js, Express, and MongoDB</p>
+					<p><a href="https://github.com/walke954/poem-share-app">App Github</a></p>
+					<p><a href="https://github.com/walke954/poem-app-api">API Github</a></p>
+				</div>
+				<div class="partition fadeIn"></div>
+				<div class="project-wrapper fadeIn">
+					<h3><a href="https://cryptic-reaches-81198.herokuapp.com/">Reflect</a></h3>
+					<img src="./project-images/calendar.png" class="project-image" alt="snapshot of Reflect app">
+					<p>The 'Reflect' web app is a journal-like app that provides the user with a personal journal they can use to reflect upon their day. I created this because I think there are a lot of benefits one can get by reflecting on their day.</p>
+					<p>Uses html, css, JavaScript, JQuery, Node.js, Express, and MongoDB</p>
+					<p><a href="https://github.com/walke954/reflect-app">App Github</a></p>
+				</div>
+				<div class="partition fadeIn"></div>
+				<div id="" class="project-wrapper fadeIn">
+					<h3><a href="https://walke954.github.io/Group-Trivia/">Group Trivia</a></h3>
+					<img src="./project-images/trivia.png" class="project-image" alt="snapshot of Group Trivia app">
+					<p>Group Trivia is an app for playing trivia with friends and family. I built this app because I believe technology at its best brings people closer together, and I wanted to create something that did just that.</p>
+					<p>Uses html, css, JQuery, JavaScript and APIs from OpenTDB and Wikipedia</p>
+					<p><a href="https://github.com/walke954/Group-Trivia">App Github</a></p>
+				</div>
+			</section>
+			<section id="contact-page">
+				<h2 class="fadeIn">Contact</h2>
+				<address class="fadeIn">
+					<p>I can be reached by</p>
+					<ul>
+						<li>Phone: <a href="tel:651-788-3606">651-788-3606</a></li>
+						<li>Email: <a href="mailto:">walke954@umn.edu</a></li>
+						<li>Or <a href="https://www.linkedin.com/in/jonathan-walker-561b2580">LinkedIn</a></li>
+					</ul>
+					<p class="fadeIn">Or check out my <a href="https://github.com/walke954">Github</a></p>
+				</address>
+			</section>
 		</main>
 	</div>
 	<script type="text/javascript" src="index.js"></script>

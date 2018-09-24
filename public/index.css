@@ -8,6 +8,10 @@ body {
 	background-color: dodgerblue;
 }
 
+section {
+	margin-bottom: 80px;
+}
+
 h1 {
 	margin: 0px;
 	padding: 0px;
@@ -15,6 +19,14 @@ h1 {
 	text-align: center;
 	color: white;
 	font-family: 'Tangerine', cursive;
+}
+
+h2 {
+	font-size: 50px;
+}
+
+h3 {
+	font-size: 40px;
 }
 
 ul {
@@ -71,11 +83,6 @@ main {
 	-webkit-animation-name: fadeIn;
 }
 
-.selected-page {
-	background-color: white;
-	color: black;
-}
-
 #page-items {
 	font-size: 25px;
 	color: white;
@@ -91,7 +98,8 @@ main {
 }
 
 #page-items li:hover {
-	background-color: lightsteelblue;
+	background-color: white;
+	color: black;
 	transition: 0.6s;
 	-webkit-transition: 0.6s;
 }

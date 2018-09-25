@@ -1,6 +1,6 @@
 # Portfolio
 
-Heroku: https://walke954.herokuapp.com/
+Link: http://www.jonathantaylorwalker.site/
 
 # About
 
@@ -13,7 +13,7 @@ Originally from the great and beautiful state of Minnesota, I gathered my belong
 Cloud Poetry is an app designed for people who are interested in creating and sharing poetry.
 Uses JavaScript, React, node.js, Express, and MongoDB
 
-[App](https://poem-app-2322.herokuapp.com/)
+[App](http://cloudpoetry.site/)
 [Github](https://github.com/walke954/poem-share-app)
 [API Github](https://github.com/walke954/poem-app-api)
 
@@ -22,7 +22,7 @@ Uses JavaScript, React, node.js, Express, and MongoDB
 The 'Reflect' web app is a journal-like app that provides the user with a personal journal they can use to reflect upon their day.
 Uses html, css, JavaScript, JQuery, Node.js, Express, and MongoDB
 
-[App](https://cryptic-reaches-81198.herokuapp.com/)
+[App](http://www.reflectapp.site/)
 [Github](https://github.com/walke954/reflect-app)
 
 ## Group Trivia
@@ -30,7 +30,7 @@ Uses html, css, JavaScript, JQuery, Node.js, Express, and MongoDB
 Group Trivia is an app for playing trivia with friends and family.
 Uses html, css, JQuery, JavaScript and the APIs from OpenTDB and Wikipedia
 
-[App](https://walke954.github.io/Group-Trivia/)
+[App](http://grouptrivia.site)
 [Github](https://github.com/walke954/Group-Trivia)
 
 # Contact
